@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Delta State</h1>
+<h2>Local Government Result</h2>
+
+<ul>
+    {% for x in results %}
+      <li><a href="lga_detail/{{ x.id }}">{{ x.lga_name }}</a></li>
+    {% endfor %}
+  </ul>
+
+</body>
+</html>

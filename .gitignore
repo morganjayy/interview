@@ -1,0 +1,5 @@
+interview/
+*.pyc
+*.log
+migrations/
+python_assessment.py

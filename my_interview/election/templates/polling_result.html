@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Polling Unit Result</h2>
+<h2>Anocha North</h2>
+  
+<ul>
+  {% for x in results %}
+    <li>{{ x.polling_unit_id }} {{ x.party_abbreviation }} {{ x.party_score }} {{ x.entered_by_user }} {{ x.date_entered}} {{x.user_ip_address}} </li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
