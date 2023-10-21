@@ -39,6 +39,9 @@ def lga_details(request, id):
   return HttpResponse(template.render(context, request))
 
 def home_page(request):
+  """
+  This view displays a form that new polling unite results can be entered. 
+  """
   context = {}
   context ['form'] = NewPollingUnit()
   return render(request, "home.html", context)
