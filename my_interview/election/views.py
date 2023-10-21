@@ -40,7 +40,7 @@ def lga_details(request, id):
 
 def home_page(request):
   """
-  This view displays a form that new polling unite results can be entered. 
+  This view displays a form that new polling unit results can be entered. 
   """
   context = {}
   context ['form'] = NewPollingUnit()
